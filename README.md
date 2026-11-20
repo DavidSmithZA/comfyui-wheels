@@ -1,7 +1,7 @@
 # comfyui-wheels
 
 Prebuilt CUDA wheels consumed by the
-[comfyui-runpod](https://github.com/davidc-smith/comfyui-runpod) images.
+[comfyui-runpod](https://github.com/DavidSmithZA/comfyui-runpod) images.
 
 This repo holds **no source and no code**. It exists only so those images can
 `ADD --checksum` a wheel from a release asset: comfyui-runpod is private, and a
@@ -18,7 +18,7 @@ Tag grammar: `<package>-<short source commit>-<cuNNN>-torch<version>`.
 
 | Tag | Package | Links against |
 |---|---|---|
-| [`sage-40d3586-cu130-torch2.13.0`](https://github.com/davidc-smith/comfyui-wheels/releases/tag/sage-40d3586-cu130-torch2.13.0) | SageAttention 2.2.0 | torch 2.13.0 + cu130, cp310, linux_x86_64 |
+| [`sage-40d3586-cu130-torch2.13.0`](https://github.com/DavidSmithZA/comfyui-wheels/releases/tag/sage-40d3586-cu130-torch2.13.0) | SageAttention 2.2.0 | torch 2.13.0 + cu130, cp310, linux_x86_64 |
 
 ## Provenance
 
